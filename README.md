@@ -8,7 +8,7 @@ A fun, interactive, and celebration-filled version of the classic **Tic Tac Toe*
 
 ---
 
-### 🔗 [**Play Live Now**](https://somiya-chaturvedi.github.io/Tic-Tac-Toe/) 🎉
+### 🔗 [**Play Live Now**] (https://somiya-chaturvedi.github.io/Tic-Tac-Toe/) 🎉
 
 ---
 
@@ -23,16 +23,6 @@ A fun, interactive, and celebration-filled version of the classic **Tic Tac Toe*
 
 ---
 
-## 🖥️ Screenshots
-
-> Add these manually to your repo if you'd like, or keep it text-only.
-
-| Gameplay | Celebration |
-|----------|-------------|
-| ![Game Screenshot](https://imgur.com/your_screenshot1.png) | ![Celebration](https://imgur.com/your_screenshot2.gif) |
-
----
-
 ## 🧠 How It Works
 
 - **HTML** structures the grid and controls
@@ -44,3 +34,26 @@ A fun, interactive, and celebration-filled version of the classic **Tic Tac Toe*
 
 ## 📁 Project Structure
 
+```
+📦 Tic-Tac-Toe/
+ ┣ 📄 index.html       → Main game layout
+ ┣ 📄 style.css        → All styling and animations
+ ┣ 📄 script.js        → Game logic and interaction
+ ┣ 📄 excited.gif      → Celebration image
+ ┣ 📄 README.md        → This file
+```
+
+---
+
+## 🙋‍♀️ About the Author
+
+Built with 💜 by **Somiya Chaturvedi**  
+🔗 [GitHub Profile](https://github.com/Somiya-Chaturvedi)  
+🌟 Follow for more fun web projects!
+
+---
+
+## 📣 Feedback
+
+If you enjoyed the project or have suggestions, feel free to leave a ⭐ star and fork it!  
+Happy Coding 💻✨
