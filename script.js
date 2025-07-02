@@ -68,6 +68,7 @@ Array.from(boxes).forEach(element => {
 });
 
 // Reset button logic
+// Reset button logic
 document.getElementById("reset").addEventListener("click", () => {
     let boxtexts = document.querySelectorAll(".boxtext");
     boxtexts.forEach(el => el.innerText = "");
@@ -79,7 +80,16 @@ document.getElementById("reset").addEventListener("click", () => {
     document.querySelector(".balloons").style.display = "none";
     document.querySelector(".confetti-container").style.display = "none";
 
+    // Remove winning highlights
     Array.from(boxes).forEach(box => {
         box.classList.remove("winning-box");
     });
+
+    // Pause and reset music
+    music.pause();
+    music.currentTime = 0;
+
+    // Also reset gameover sound if needed
+    gameover.pause();
+    gameover.currentTime = 0;
 });
